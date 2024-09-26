@@ -4,4 +4,24 @@
     <string name="news">资讯</string>
     <string name="mall">商城</string>
     <string name="mine">我的</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="login_success">登录成功</string>
+    <string name="register_success">注册成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="register_fail">注册失败</string>
+    <string name="email_account_number">邮箱账号</string>
+    <string name="email_password">邮箱密码</string>
+    <string name="email_account_number_hint">请输入邮箱账号</string>
+    <string name="email_password_hint">请输入邮箱密码</string>
+    <string name="email_account_number_error">邮箱账号不能为空</string>
+    <string name="email_password_error">邮箱密码不能为空</string>
+    <string name="email_account_number_error_format">邮箱账号格式不正确</string>
+    <string name="email_captcha">邮箱验证码</string>
+    <string name="email_captcha_hint">请输入邮箱验证码</string>
+    <string name="email_captcha_error">邮箱验证码不能为空</string>
+    <string name="get_captcha">获取验证码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="register_now">立即注册</string>
+    <string name="user_agreement">用户协议</string>
 </resources>

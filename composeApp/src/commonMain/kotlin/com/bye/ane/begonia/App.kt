@@ -22,6 +22,6 @@ import setaria.composeapp.generated.resources.compose_multiplatform
 fun App() {
     val navHostController = rememberNavController()
     MaterialTheme {
-        AppNavGraph(navHostController, onFinish = {})
+        AppNavGraph(navHostController)
     }
 }

@@ -36,8 +36,10 @@ include(":core:data")
 include(":core:network")
 include(":core:resources")
 include(":core:routers")
-include(":core:apiService")
-include(":core:repository")
-
+//
+include(":shared:orbit-viewmodel")
+include(":shared:orbit-compose")
 //
 include(":feature:index")
+include(":feature:login")
+include(":feature:computing")

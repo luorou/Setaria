@@ -1,5 +1,6 @@
 package com.bye.ane.core.network.di
 
+import com.bye.ane.core.global.UrlConfig
 import com.bye.ane.core.network.plugin.AddHeaderPlugin
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.cio.CIO
@@ -26,7 +27,7 @@ actual val ktorKoinModule = module {
             defaultRequest {
                 contentType(ContentType.Application.Json)
                 accept(ContentType.Application.Json)
-                url("UrlConfig.DEV_BASE_URL")
+                url(UrlConfig.BASE_URL)
             }
             install(ContentNegotiation) {
                 json(Json { ignoreUnknownKeys = true })
