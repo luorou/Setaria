@@ -33,9 +33,11 @@ class ApiService(private val client: HttpClient) {
     /**
      *
      */
-    suspend fun computingProductList(params: Map<String, Any?>): ResponseWrapper<List<ComputingProductListResp>> {
-        return client.post("/app-api/system/power/page") {
-            setBody(params)
+    suspend fun computingProductList(params: Map<String, Any?>): ResponseWrapper<ComputingProductListResp> {
+        return client.get("/app-api/system/power/page") {
+            params.forEach {
+                parameter(it.key, it.value)
+            }
         }.body()
     }
 

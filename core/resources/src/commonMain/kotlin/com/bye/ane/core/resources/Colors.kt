@@ -1,4 +1,4 @@
-package com.bye.ane.core.network
+package com.bye.ane.core.resources
 
 import androidx.compose.ui.graphics.Color
 

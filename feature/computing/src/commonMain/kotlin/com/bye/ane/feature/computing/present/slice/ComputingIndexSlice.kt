@@ -20,7 +20,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import com.bye.ane.core.network.Colors
+import com.bye.ane.core.resources.Colors
 import com.bye.ane.feature.computing.data.resp.ComputingConfigPO
 import com.bye.ane.feature.computing.present.ComputingChildSliceRoute
 import com.bye.ane.feature.computing.present.vm.ComputingIndexVM

@@ -12,7 +12,7 @@ data class ComputingProductListResp(
 
 @Serializable
 data class ComputingProductPO(
-    @SerialName("list") val id: Long,
+    @SerialName("id") val id: Long,
     @SerialName("name") val name: String? = null,
     @SerialName("power") val power: Long,
     @SerialName("period") val period: Long,

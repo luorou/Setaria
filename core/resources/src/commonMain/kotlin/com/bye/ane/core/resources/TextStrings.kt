@@ -1,4 +1,4 @@
-package com.bye.ane.core.network
+package com.bye.ane.core.resources
 
 import setaria.core.resources.generated.resources.Res
 import setaria.core.resources.generated.resources.email_account_number

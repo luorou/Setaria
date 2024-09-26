@@ -69,6 +69,7 @@ kotlin {
             implementation(libs.lifecycle.runtime.compose)
             implementation(libs.lifecycle.viewmodel.compose)
             implementation(libs.navigation.compose)
+            implementation(libs.androidx.constraintlayout.compose)
             //
             implementation(libs.kotlinx.serialization.json)
             //
@@ -76,6 +77,7 @@ kotlin {
             implementation(libs.orbit.compose)
             implementation(projects.shared.orbitViewmodel)
             implementation(projects.shared.orbitCompose)
+
             //
             implementation(libs.bundles.koin.common)
             //
@@ -131,6 +133,7 @@ android {
         debugImplementation(compose.uiTooling)
     }
 }
+
 
 compose.desktop {
     application {

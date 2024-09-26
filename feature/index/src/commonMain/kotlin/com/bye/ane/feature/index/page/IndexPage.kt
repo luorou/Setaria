@@ -11,8 +11,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.navigation.NavHostController
 import com.bye.ane.feature.index.widget.BottomNavigationBar
 import com.bye.ane.feature.index.widget.BottomNavigationTab
-import com.bye.ane.core.network.Colors
-import com.bye.ane.core.network.PngImages
+import com.bye.ane.core.resources.Colors
+import com.bye.ane.core.resources.PngImages
 import com.bye.ane.feature.computing.present.ComputingIndexSliceRoute
 import kotlinx.coroutines.launch
 

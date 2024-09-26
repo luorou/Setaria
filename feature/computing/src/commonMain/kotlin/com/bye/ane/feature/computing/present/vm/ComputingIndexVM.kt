@@ -13,7 +13,6 @@ class ComputingIndexVM(
         return ComputingIndexState()
     }
 
-
     /**
      *
      */

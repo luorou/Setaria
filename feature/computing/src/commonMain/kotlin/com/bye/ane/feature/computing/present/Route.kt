@@ -9,6 +9,7 @@ import androidx.navigation.NavHostController
 import com.bye.ane.feature.computing.data.resp.ComputingConfigPO
 import com.bye.ane.feature.computing.present.slice.ComputingChildSlice
 import com.bye.ane.feature.computing.present.slice.ComputingIndexSlice
+import com.bye.ane.feature.computing.present.vm.ComputingChildVM
 import com.bye.ane.feature.computing.present.vm.ComputingIndexVM
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.annotation.KoinExperimentalAPI
@@ -29,10 +30,10 @@ fun ComputingIndexSliceRoute(
 @Composable
 fun ComputingChildSliceRoute(
     label: ComputingConfigPO,
-    viewModel: ComputingIndexVM = koinViewModel(key = label.coinType.toString())
+    viewModel: ComputingChildVM = koinViewModel(key = label.coinType.toString())
 ) {
     //
-    viewModel.computingConfig()
+    viewModel.computingProductList()
     ComputingChildSlice(label, viewModel)
 }
 
